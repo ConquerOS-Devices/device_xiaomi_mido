@@ -590,5 +590,8 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
-	
+
+    <!-- Define Surfaceflinger limited alpha -->	
+    <bool name="config_sf_limitedAlpha">true</bool>
+    <bool name="config_ui_enableFadingMarquee">true</bool>
 </resources>
