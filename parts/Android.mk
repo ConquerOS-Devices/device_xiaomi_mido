@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -17,6 +17,9 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_PRIVILEGED_MODULE := true
 
+# override with Dirac
+LOCAL_OVERRIDES_PACKAGES := AudioFX
+
 LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
@@ -28,7 +31,5 @@ LOCAL_RESOURCE_DIR := \
     $(TOP)/packages/resources/devicesettings/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
-
-include frameworks/base/packages/SettingsLib/common.mk
 
 include $(BUILD_PACKAGE)
