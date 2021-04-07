@@ -59,6 +59,10 @@ persist.qfp=false
 # FM
 ro.fm.transmitter=false
 
+# Iorap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+
 # LMKD
 ro.config.low_ram=false
 
