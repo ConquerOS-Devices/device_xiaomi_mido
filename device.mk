@@ -440,3 +440,8 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Hacks
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
