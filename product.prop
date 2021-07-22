@@ -4,10 +4,3 @@
 
 # Default to BFQ I/O scheduler
 persist.sys.io.scheduler=bfq
-
-# PixelPlusUI OFFICIAL
-ro.ppui.device_name=Redmi Note 4X
-ro.ppui.version=3.7
-ro.ppui.version_code=Ragnarok
-ro.ppui.is_official=true
-ro.ppui.maintainer_name=Smokey
