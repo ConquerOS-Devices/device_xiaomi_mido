@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mido.mk
+    $(LOCAL_DIR)/conquer_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mido-eng \
-    aosp_mido-userdebug \
-    aosp_mido-user
+    conquer_mido-eng \
+    conquer_mido-userdebug \
+    conquer_mido-user
