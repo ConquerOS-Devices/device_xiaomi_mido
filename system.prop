@@ -61,7 +61,6 @@ ro.fm.transmitter=false
 
 # LMKD
 ro.config.low_ram=false
-ro.lmk.log_stats=true
 
 # Media
 av.debug.disable.pers.cache=1
