@@ -102,8 +102,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcompostprocbundle \
-    libldacBT_bco
+    libqcompostprocbundle
 
 # Audio features
 PRODUCT_PACKAGES += \
