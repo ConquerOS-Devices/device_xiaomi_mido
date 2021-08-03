@@ -57,9 +57,6 @@ TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-ge
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mido
 TARGET_KERNEL_VERSION := 4.9
 
-# ANT
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
-
 # Audio
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
