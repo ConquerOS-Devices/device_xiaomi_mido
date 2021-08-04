@@ -1081,8 +1081,8 @@ vendor/lib64/libqmi_encdec.so|acfff1a63cbf216f7349e55668bef9d4eb2e1f00
 vendor/lib64/libqmi_legacy.so|f7fe22113d12d9992b876ea59bd1aa4042cc587b
 vendor/lib64/libqmi.so|bf7533ea35d76ba9affb39499acdc3e200f6619e
 
-# QTI Telephony- from LA.QSSI.11.0.r1-07800-qssi.0
-system_ext/framework/qti-telephony-common.jar
+# QTI Telephony - from LA.QSSI.11.0.r1-10400-qssi.0
+system_ext/framework/qti-telephony-common.jar|1fd37129f961e58f9d1189736e2cb46290666b97
 
 # Radio - from Tissot PKQ1.180917.001 V10.0.24.0.PDHMIXM
 vendor/bin/netmgrd|e9c82b0644cb08b160a2ce484fdb58830306237d
