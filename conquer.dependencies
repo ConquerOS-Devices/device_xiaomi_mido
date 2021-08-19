@@ -1,0 +1,36 @@
+[
+	{
+		"repository": "Scarlett-Project/kernel_xiaomi_msm8953-4.9",
+		"target_path": "kernel/xiaomi/mido",
+		"branch": "lineage-17.1",
+                "remote": "github"
+	},
+	{
+		"repository": "vendor_xiaomi_mido",
+		"target_path": "vendor/xiaomi/mido",
+		"branch": "11"
+
+	},
+	{
+		"repository": "smokey18/hardware_qcom_display",
+		"target_path": "hardware/qcom-caf/msm8996/display",
+		"branch": "eleven-caf-msm8996",
+		"remote": "github"
+
+        },
+        {
+                "repository": "smokey18/hardware_qcom_media",
+		"target_path": "hardware/qcom-caf/msm8996/media",
+		"branch": "eleven-caf-msm8996",
+		"remote": "github"
+
+        },
+        {
+                "repository": "smokey18/hardware_qcom_audio",
+		"target_path": "hardware/qcom-caf/msm8996/audio",
+		"branch": "eleven-caf-msm8996",
+		"remote": "github"
+
+	}
+
+]
